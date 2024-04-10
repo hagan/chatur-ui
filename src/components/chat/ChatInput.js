@@ -72,6 +72,7 @@ export default function MessageInput() {
     state.studentMessageAppended,
     state.pendingChatbotMessage,
     state.pendingCourseId,
+    sendMessage
   ]);
 
   return (

@@ -21,6 +21,7 @@ import Link from "@mui/joy/Link";
 import Card from "@mui/joy/Card";
 import CardActions from "@mui/joy/CardActions";
 import CardOverflow from "@mui/joy/CardOverflow";
+import Image from "next/image";
 
 import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 import ChevronRightRoundedIcon from "@mui/icons-material/ChevronRightRounded";
@@ -113,7 +114,7 @@ export default function MyProfile() {
                   borderRadius: "100%",
                 }}
               >
-                <img
+                <Image
                   src="/images/nirav.jpg"
                   srcSet="/images/nirav.jpg"
                   loading="lazy"
@@ -212,7 +213,7 @@ export default function MyProfile() {
                   maxHeight={108}
                   sx={{ flex: 1, minWidth: 108, borderRadius: "100%" }}
                 >
-                  <img
+                  <Image
                     src="/images/nirav.jpg"
                     srcSet="/images/nirav.jpg"
                     loading="lazy"

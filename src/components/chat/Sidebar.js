@@ -1,4 +1,5 @@
 import * as React from "react";
+import Image from "next/image";
 import GlobalStyles from "@mui/joy/GlobalStyles";
 import Avatar from "@mui/joy/Avatar";
 import Box from "@mui/joy/Box";
@@ -191,10 +192,11 @@ export default function Sidebar() {
           </ListItem>
         </List> */}
       </Box>
-      <img
+      <Image
         src="/images/uarizona-logo.png"
         alt="Description of the image"
-        width={"175px"}
+        width={175}
+        height={42}
       />
       <Divider />
       {!userLoading && user && (

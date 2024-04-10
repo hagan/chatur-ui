@@ -17,11 +17,12 @@
     "@fontsource/inter": "^5.0.16",
     "@mui/icons-material": "^5.15.4",
     "@mui/joy": "^5.0.0-beta.22",
+    "@mui/material": "^5.15.15",
     "lottie-react": "^2.4.0",
-    "next": "14.0.4",
+    "next": "^14.1.4",
     "numeral": "^2.0.6",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-markdown": "^9.0.1"
   },
   "devDependencies": {
@@ -32,10 +33,14 @@
     "@storybook/nextjs": "^7.6.7",
     "@storybook/react": "^7.6.7",
     "@storybook/test": "^7.6.7",
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4",
+    "eslint-config-next": "^14.1.4",
+    "eslint-plugin-react-refresh": "^0.4.6",
     "eslint-plugin-storybook": "^0.6.15",
     "prettier": "3.1.1",
-    "storybook": "^7.6.7"
+    "storybook": "^7.6.7",
+    "typescript": "^5.4.5"
   }
 }

@@ -4,6 +4,10 @@ import { headers } from "next/headers";
 export async function POST(req) {
   const requestBody = await req.json();
 
+  if (!requestBody.message) {
+    return NextResponse.json({ error: "Message is required" }, { status: 400 });
+  }
+
   let apiUrl;
 
   if (process.env.NODE_ENV === "development") {
